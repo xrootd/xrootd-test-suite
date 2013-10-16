@@ -1,0 +1,8 @@
+XROOTD_USER=xrootd
+XROOTD_GROUP=xrootd
+
+XROOTD_META_OPTIONS="-l /var/log/xrootd/xrootd.log -c /etc/xrootd/meta_setup.cfg -k 7"
+CMSD_META_OPTIONS="-l /var/log/xrootd/cmsd.log -c /etc/xrootd/meta_setup.cfg -k 7"
+
+XROOTD_INSTANCES="meta"
+CMSD_INSTANCES="meta"
